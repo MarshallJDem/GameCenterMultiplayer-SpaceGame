@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC23003F1EC953610010FF93 /* shot.png in Resources */ = {isa = PBXBuildFile; fileRef = CC23003E1EC953610010FF93 /* shot.png */; };
+		CC23D7BE1EBBFB1600421ABF /* GameNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23D7BD1EBBFB1600421ABF /* GameNavigationController.swift */; };
+		CC2D058D1EBFB02300EC99B0 /* blueP.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2D058B1EBFB02300EC99B0 /* blueP.png */; };
+		CC2D058E1EBFB02300EC99B0 /* orangeP.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2D058C1EBFB02300EC99B0 /* orangeP.png */; };
+		CC2D05901EBFB02700EC99B0 /* redP.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2D058F1EBFB02700EC99B0 /* redP.png */; };
+		CC3CC0AA1EBFA7220036B573 /* Rocket.sks in Resources */ = {isa = PBXBuildFile; fileRef = CC3CC0A91EBFA7220036B573 /* Rocket.sks */; };
+		CC5B2F581ED4703D0094E531 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = CC5B2F571ED4703D0094E531 /* Explosion.sks */; };
+		CCA91C871ECBFC8C0050164E /* buyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA91C861ECBFC8C0050164E /* buyButton.png */; };
+		CCA91C891ECBFCA70050164E /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA91C881ECBFCA70050164E /* Planet.swift */; };
+		CCC6D2271EBB85FA00F61593 /* GameKitStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6D2251EBB85FA00F61593 /* GameKitStuff.swift */; };
+		CCC6D2281EBB85FA00F61593 /* MultiplayerNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6D2261EBB85FA00F61593 /* MultiplayerNetworking.swift */; };
+		CCEC78411E6E397A00EA48DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC78401E6E397A00EA48DF /* AppDelegate.swift */; };
+		CCEC78451E6E397A00EA48DF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CCEC78441E6E397A00EA48DF /* Actions.sks */; };
+		CCEC78471E6E397A00EA48DF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC78461E6E397A00EA48DF /* GameScene.swift */; };
+		CCEC78491E6E397A00EA48DF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC78481E6E397A00EA48DF /* GameViewController.swift */; };
+		CCEC784C1E6E397A00EA48DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEC784A1E6E397A00EA48DF /* Main.storyboard */; };
+		CCEC784E1E6E397A00EA48DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEC784D1E6E397A00EA48DF /* Assets.xcassets */; };
+		CCEC78511E6E397A00EA48DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEC784F1E6E397A00EA48DF /* LaunchScreen.storyboard */; };
+		CCEC785C1E6E397A00EA48DF /* MashBall0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC785B1E6E397A00EA48DF /* MashBall0Tests.swift */; };
+		CCEC78671E6E397A00EA48DF /* MashBall0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC78661E6E397A00EA48DF /* MashBall0UITests.swift */; };
+		CCEC78751E6E428400EA48DF /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC78741E6E428400EA48DF /* Player.swift */; };
+		CCEC78771E6E4FB900EA48DF /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEC78761E6E4FB900EA48DF /* knob.png */; };
+		CCEC78791E6E55ED00EA48DF /* GUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC78781E6E55ED00EA48DF /* GUI.swift */; };
+		CCEC787B1E70F50B00EA48DF /* space.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEC787A1E70F50B00EA48DF /* space.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCEC78581E6E397A00EA48DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEC78351E6E397900EA48DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEC783C1E6E397900EA48DF;
+			remoteInfo = MashBall0;
+		};
+		CCEC78631E6E397A00EA48DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEC78351E6E397900EA48DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEC783C1E6E397900EA48DF;
+			remoteInfo = MashBall0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC23003E1EC953610010FF93 /* shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shot.png; path = ../shot.png; sourceTree = "<group>"; };
+		CC23D7BD1EBBFB1600421ABF /* GameNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameNavigationController.swift; sourceTree = "<group>"; };
+		CC2D058B1EBFB02300EC99B0 /* blueP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueP.png; path = ../blueP.png; sourceTree = "<group>"; };
+		CC2D058C1EBFB02300EC99B0 /* orangeP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orangeP.png; path = ../orangeP.png; sourceTree = "<group>"; };
+		CC2D058F1EBFB02700EC99B0 /* redP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redP.png; path = ../redP.png; sourceTree = "<group>"; };
+		CC3CC0A91EBFA7220036B573 /* Rocket.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rocket.sks; sourceTree = "<group>"; };
+		CC5B2F541ED46E710094E531 /* MashBall0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MashBall0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5B2F551ED46E710094E531 /* MashBall0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MashBall0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5B2F561ED46E710094E531 /* MashBall0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MashBall0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5B2F571ED4703D0094E531 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		CCA91C861ECBFC8C0050164E /* buyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buyButton.png; sourceTree = SOURCE_ROOT; };
+		CCA91C881ECBFCA70050164E /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		CCC6D2251EBB85FA00F61593 /* GameKitStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameKitStuff.swift; sourceTree = "<group>"; };
+		CCC6D2261EBB85FA00F61593 /* MultiplayerNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplayerNetworking.swift; sourceTree = "<group>"; };
+		CCEC78401E6E397A00EA48DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCEC78441E6E397A00EA48DF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CCEC78461E6E397A00EA48DF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CCEC78481E6E397A00EA48DF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CCEC784B1E6E397A00EA48DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCEC784D1E6E397A00EA48DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCEC78501E6E397A00EA48DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCEC78521E6E397A00EA48DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEC785B1E6E397A00EA48DF /* MashBall0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashBall0Tests.swift; sourceTree = "<group>"; };
+		CCEC785D1E6E397A00EA48DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEC78661E6E397A00EA48DF /* MashBall0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashBall0UITests.swift; sourceTree = "<group>"; };
+		CCEC78681E6E397A00EA48DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEC78741E6E428400EA48DF /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		CCEC78761E6E4FB900EA48DF /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knob.png; path = ../knob.png; sourceTree = "<group>"; };
+		CCEC78781E6E55ED00EA48DF /* GUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUI.swift; sourceTree = "<group>"; };
+		CCEC787A1E70F50B00EA48DF /* space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = space.png; path = ../space.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEC783A1E6E397900EA48DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEC78541E6E397A00EA48DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEC785F1E6E397A00EA48DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC2D05911EBFB07300EC99B0 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				CCA91C861ECBFC8C0050164E /* buyButton.png */,
+				CC2D058F1EBFB02700EC99B0 /* redP.png */,
+				CC2D058B1EBFB02300EC99B0 /* blueP.png */,
+				CC23003E1EC953610010FF93 /* shot.png */,
+				CC2D058C1EBFB02300EC99B0 /* orangeP.png */,
+				CCEC78761E6E4FB900EA48DF /* knob.png */,
+				CCEC787A1E70F50B00EA48DF /* space.png */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		CCEC78341E6E397900EA48DF = {
+			isa = PBXGroup;
+			children = (
+				CCEC783F1E6E397900EA48DF /* MashBall0 */,
+				CCEC785A1E6E397A00EA48DF /* MashBall0Tests */,
+				CCEC78651E6E397A00EA48DF /* MashBall0UITests */,
+				CC5B2F541ED46E710094E531 /* MashBall0.app */,
+				CC5B2F551ED46E710094E531 /* MashBall0Tests.xctest */,
+				CC5B2F561ED46E710094E531 /* MashBall0UITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEC783F1E6E397900EA48DF /* MashBall0 */ = {
+			isa = PBXGroup;
+			children = (
+				CCC6D2251EBB85FA00F61593 /* GameKitStuff.swift */,
+				CCC6D2261EBB85FA00F61593 /* MultiplayerNetworking.swift */,
+				CCEC78401E6E397A00EA48DF /* AppDelegate.swift */,
+				CCEC78441E6E397A00EA48DF /* Actions.sks */,
+				CCEC78461E6E397A00EA48DF /* GameScene.swift */,
+				CCEC78781E6E55ED00EA48DF /* GUI.swift */,
+				CCEC78741E6E428400EA48DF /* Player.swift */,
+				CC5B2F571ED4703D0094E531 /* Explosion.sks */,
+				CCA91C881ECBFCA70050164E /* Planet.swift */,
+				CCEC78481E6E397A00EA48DF /* GameViewController.swift */,
+				CC3CC0A91EBFA7220036B573 /* Rocket.sks */,
+				CC23D7BD1EBBFB1600421ABF /* GameNavigationController.swift */,
+				CCEC784A1E6E397A00EA48DF /* Main.storyboard */,
+				CCEC784D1E6E397A00EA48DF /* Assets.xcassets */,
+				CCEC784F1E6E397A00EA48DF /* LaunchScreen.storyboard */,
+				CCEC78521E6E397A00EA48DF /* Info.plist */,
+				CC2D05911EBFB07300EC99B0 /* Sprites */,
+			);
+			path = MashBall0;
+			sourceTree = "<group>";
+		};
+		CCEC785A1E6E397A00EA48DF /* MashBall0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC785B1E6E397A00EA48DF /* MashBall0Tests.swift */,
+				CCEC785D1E6E397A00EA48DF /* Info.plist */,
+			);
+			path = MashBall0Tests;
+			sourceTree = "<group>";
+		};
+		CCEC78651E6E397A00EA48DF /* MashBall0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC78661E6E397A00EA48DF /* MashBall0UITests.swift */,
+				CCEC78681E6E397A00EA48DF /* Info.plist */,
+			);
+			path = MashBall0UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEC783C1E6E397900EA48DF /* MashBall0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEC786B1E6E397A00EA48DF /* Build configuration list for PBXNativeTarget "MashBall0" */;
+			buildPhases = (
+				CCEC78391E6E397900EA48DF /* Sources */,
+				CCEC783A1E6E397900EA48DF /* Frameworks */,
+				CCEC783B1E6E397900EA48DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MashBall0;
+			productName = MashBall0;
+			productReference = CC5B2F541ED46E710094E531 /* MashBall0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCEC78561E6E397A00EA48DF /* MashBall0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEC786E1E6E397A00EA48DF /* Build configuration list for PBXNativeTarget "MashBall0Tests" */;
+			buildPhases = (
+				8BF29154B06DF81B1B11906A /* [CP] Check Pods Manifest.lock */,
+				CCEC78531E6E397A00EA48DF /* Sources */,
+				CCEC78541E6E397A00EA48DF /* Frameworks */,
+				CCEC78551E6E397A00EA48DF /* Resources */,
+				20F18CC642486E632D40F41D /* [CP] Embed Pods Frameworks */,
+				B263A61AED522C6F4C0A9F32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEC78591E6E397A00EA48DF /* PBXTargetDependency */,
+			);
+			name = MashBall0Tests;
+			productName = MashBall0Tests;
+			productReference = CC5B2F551ED46E710094E531 /* MashBall0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCEC78611E6E397A00EA48DF /* MashBall0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEC78711E6E397A00EA48DF /* Build configuration list for PBXNativeTarget "MashBall0UITests" */;
+			buildPhases = (
+				202596BC7F017B6DE05B1373 /* [CP] Check Pods Manifest.lock */,
+				CCEC785E1E6E397A00EA48DF /* Sources */,
+				CCEC785F1E6E397A00EA48DF /* Frameworks */,
+				CCEC78601E6E397A00EA48DF /* Resources */,
+				67F12E5B2562D4C893527C77 /* [CP] Embed Pods Frameworks */,
+				29A3BEE0CE41DCC44E61900F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEC78641E6E397A00EA48DF /* PBXTargetDependency */,
+			);
+			name = MashBall0UITests;
+			productName = MashBall0UITests;
+			productReference = CC5B2F561ED46E710094E531 /* MashBall0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEC78351E6E397900EA48DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MarshallD;
+				TargetAttributes = {
+					CCEC783C1E6E397900EA48DF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZAQA5V94ET;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					CCEC78561E6E397A00EA48DF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZAQA5V94ET;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCEC783C1E6E397900EA48DF;
+					};
+					CCEC78611E6E397A00EA48DF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZAQA5V94ET;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCEC783C1E6E397900EA48DF;
+					};
+				};
+			};
+			buildConfigurationList = CCEC78381E6E397900EA48DF /* Build configuration list for PBXProject "MashBall0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCEC78341E6E397900EA48DF;
+			productRefGroup = CCEC78341E6E397900EA48DF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEC783C1E6E397900EA48DF /* MashBall0 */,
+				CCEC78561E6E397A00EA48DF /* MashBall0Tests */,
+				CCEC78611E6E397A00EA48DF /* MashBall0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEC783B1E6E397900EA48DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEC784C1E6E397A00EA48DF /* Main.storyboard in Resources */,
+				CCEC78771E6E4FB900EA48DF /* knob.png in Resources */,
+				CCEC784E1E6E397A00EA48DF /* Assets.xcassets in Resources */,
+				CC3CC0AA1EBFA7220036B573 /* Rocket.sks in Resources */,
+				CC2D058D1EBFB02300EC99B0 /* blueP.png in Resources */,
+				CC5B2F581ED4703D0094E531 /* Explosion.sks in Resources */,
+				CCEC78511E6E397A00EA48DF /* LaunchScreen.storyboard in Resources */,
+				CC23003F1EC953610010FF93 /* shot.png in Resources */,
+				CC2D05901EBFB02700EC99B0 /* redP.png in Resources */,
+				CCA91C871ECBFC8C0050164E /* buyButton.png in Resources */,
+				CCEC787B1E70F50B00EA48DF /* space.png in Resources */,
+				CCEC78451E6E397A00EA48DF /* Actions.sks in Resources */,
+				CC2D058E1EBFB02300EC99B0 /* orangeP.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEC78551E6E397A00EA48DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEC78601E6E397A00EA48DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		202596BC7F017B6DE05B1373 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20F18CC642486E632D40F41D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MashBall0Tests/Pods-MashBall0Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29A3BEE0CE41DCC44E61900F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MashBall0UITests/Pods-MashBall0UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67F12E5B2562D4C893527C77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MashBall0UITests/Pods-MashBall0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BF29154B06DF81B1B11906A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B263A61AED522C6F4C0A9F32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MashBall0Tests/Pods-MashBall0Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEC78391E6E397900EA48DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC6D2281EBB85FA00F61593 /* MultiplayerNetworking.swift in Sources */,
+				CCEC78751E6E428400EA48DF /* Player.swift in Sources */,
+				CCC6D2271EBB85FA00F61593 /* GameKitStuff.swift in Sources */,
+				CCA91C891ECBFCA70050164E /* Planet.swift in Sources */,
+				CCEC78471E6E397A00EA48DF /* GameScene.swift in Sources */,
+				CCEC78491E6E397A00EA48DF /* GameViewController.swift in Sources */,
+				CCEC78411E6E397A00EA48DF /* AppDelegate.swift in Sources */,
+				CCEC78791E6E55ED00EA48DF /* GUI.swift in Sources */,
+				CC23D7BE1EBBFB1600421ABF /* GameNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEC78531E6E397A00EA48DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEC785C1E6E397A00EA48DF /* MashBall0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEC785E1E6E397A00EA48DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEC78671E6E397A00EA48DF /* MashBall0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCEC78591E6E397A00EA48DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEC783C1E6E397900EA48DF /* MashBall0 */;
+			targetProxy = CCEC78581E6E397A00EA48DF /* PBXContainerItemProxy */;
+		};
+		CCEC78641E6E397A00EA48DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEC783C1E6E397900EA48DF /* MashBall0 */;
+			targetProxy = CCEC78631E6E397A00EA48DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCEC784A1E6E397A00EA48DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEC784B1E6E397A00EA48DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCEC784F1E6E397A00EA48DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEC78501E6E397A00EA48DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCEC78691E6E397A00EA48DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCEC786A1E6E397A00EA48DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCEC786C1E6E397A00EA48DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZAQA5V94ET;
+				INFOPLIST_FILE = MashBall0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarshallD.NetworkTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CCEC786D1E6E397A00EA48DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZAQA5V94ET;
+				INFOPLIST_FILE = MashBall0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarshallD.NetworkTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CCEC786F1E6E397A00EA48DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZAQA5V94ET;
+				INFOPLIST_FILE = MashBall0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarshallD.MashBall0Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MashBall0.app/MashBall0";
+			};
+			name = Debug;
+		};
+		CCEC78701E6E397A00EA48DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZAQA5V94ET;
+				INFOPLIST_FILE = MashBall0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarshallD.MashBall0Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MashBall0.app/MashBall0";
+			};
+			name = Release;
+		};
+		CCEC78721E6E397A00EA48DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZAQA5V94ET;
+				INFOPLIST_FILE = MashBall0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarshallD.MashBall0UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MashBall0;
+			};
+			name = Debug;
+		};
+		CCEC78731E6E397A00EA48DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZAQA5V94ET;
+				INFOPLIST_FILE = MashBall0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarshallD.MashBall0UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MashBall0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEC78381E6E397900EA48DF /* Build configuration list for PBXProject "MashBall0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEC78691E6E397A00EA48DF /* Debug */,
+				CCEC786A1E6E397A00EA48DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEC786B1E6E397A00EA48DF /* Build configuration list for PBXNativeTarget "MashBall0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEC786C1E6E397A00EA48DF /* Debug */,
+				CCEC786D1E6E397A00EA48DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEC786E1E6E397A00EA48DF /* Build configuration list for PBXNativeTarget "MashBall0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEC786F1E6E397A00EA48DF /* Debug */,
+				CCEC78701E6E397A00EA48DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEC78711E6E397A00EA48DF /* Build configuration list for PBXNativeTarget "MashBall0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEC78721E6E397A00EA48DF /* Debug */,
+				CCEC78731E6E397A00EA48DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCEC78351E6E397900EA48DF /* Project object */;
+}
